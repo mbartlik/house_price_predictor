@@ -5,10 +5,15 @@ Given the price of a house and the values of a number of its attributes, the pro
 
 ## Calculation
 Predicted Price : Y = W0 + W1*x1 + W2*X2 + W3*X3 + W4*X4
+
 Weight Matrix : W = pseudoInv(X)*Y
+
 pseudoInv(X) = inverse(transpose(X)*X) * transpose(X)  
+
 weight(w) = pseudoInv(X) * Y
+
         where   X = Input data matrix
+        
                 Y = Target vector
 
 ## Input File Formatting
@@ -29,3 +34,5 @@ gcc -o example_compile price_predictor.c
 260654
 316616
 497769
+```
+The printed outputs are the prediction prices of the houses represented by the attributes given in the test set. 
