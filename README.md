@@ -19,3 +19,13 @@ Here is an example of compiling and running the programs with some of the given 
 ```bash
 gcc -o example_compile price_predictor.c
 ./example_compile testcases/trainA.txt testcases/testA.txt
+372862
+446888
+190019
+606803
+349252
+230890
+361327
+260654
+316616
+497769
